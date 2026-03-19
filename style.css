@@ -1,0 +1,54 @@
+    body {
+      width: 300px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 20px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+
+    h3 {
+      color: #fff;
+      margin-bottom: 20px;
+      text-align: center;
+      font-weight: 300;
+      text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+    }
+
+    #notesContainer {
+      margin-bottom: 20px;
+      background: rgba(255,255,255,0.1);
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      margin-top: 8px;
+      background-color: rgba(255,255,255,0.2);
+      color: #fff;
+      border: 1px solid rgba(255,255,255,0.3);
+      border-radius: 25px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+      backdrop-filter: blur(10px);
+    }
+
+    button:hover {
+      background-color: rgba(255,255,255,0.3);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    #clearBtn {
+      background-color: rgba(255,0,0,0.3);
+      border-color: rgba(255,0,0,0.5);
+    }
+
+    #clearBtn:hover {
+      background-color: rgba(255,0,0,0.5);
+    }
